@@ -1,0 +1,9 @@
+webInfo = {"name": None, "URL": None, "desc": None, "rating": None}
+
+for name, value in webInfo.items():
+  webInfo[name] = input(f"{name}: ")
+
+
+print()
+for name, value in webInfo.items():
+  print(f"{name}: {value}")
